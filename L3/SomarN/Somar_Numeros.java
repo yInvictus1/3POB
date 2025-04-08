@@ -14,17 +14,15 @@ public class Somar_Numeros {
     public static void main(String[] args) {
         int num, i,soma=0;
 
-         Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Escolha um Numero");
+            num = scanner.nextInt();
 
-        System.out.println("Escolha um Numero");
-        num = scanner.nextInt();
+            for(i=1;i<=num;i++){
+                soma+=i;
+            }
 
-        for(i=1;i<=num;i++){
-            soma+=i;
+            System.out.println("A soma total foi : " + soma);
         }
-
-        System.out.println("A soma total foi : " + soma);
-
-        scanner.close();
     }
 }
