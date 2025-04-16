@@ -21,4 +21,3 @@ Este repositório contém os exercícios, projetos e anotações das aulas de **
 - Git e GitHub para versionamento e colaboração
 
 ## 📁 Estrutura do Repositório
-
