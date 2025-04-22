@@ -1,8 +1,8 @@
-# 💻 Programação Orientada a Objetos (POO)
+# Programação Orientada a Objetos (POO)
 
 Este repositório contém os exercícios, projetos e anotações das aulas de **Programação Orientada a Objetos (POO)**. Aqui você encontrará exemplos práticos dos principais conceitos da programação orientada a objetos aplicados em sala de aula.
 
-## 🧠 Conteúdo Abordado
+## Conteúdo Abordado
 
 - ✅ Classes e Objetos  
 - ✅ Atributos e Métodos  
@@ -14,7 +14,7 @@ Este repositório contém os exercícios, projetos e anotações das aulas de **
 - ✅ Sobrecarga de métodos e construtores  
 - ✅ Associações entre classes  
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Linguagem: `Java`
 - IDE: `VS Code`
