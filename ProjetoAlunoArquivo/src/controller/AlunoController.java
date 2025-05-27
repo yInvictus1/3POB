@@ -12,22 +12,26 @@ public class AlunoController {
     }
 
     public List<Aluno> listarAlunos() {
-        throw new UnsupportedOperationException("Unimplemented method 'listarAlunos'");
+        return new ArrayList<>(alunos);
     }
 
     public void adicionarAluno(int matricula, String nome, double coeficienteRendimento) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'adicionarAluno'");
+        alunos.add(new Aluno(matricula, nome, coeficienteRendimento));
     }
 
     public boolean alterarAluno(int matricula, String nome, double coeficienteRendimento) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'alterarAluno'");
+        for (Aluno aluno : alunos) {
+            if (aluno.getMatricula() == matricula) {
+                aluno.setNome(nome);
+                aluno.setCoeficienteRendimento(coeficienteRendimento);
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean removerAluno(int matricula) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'removerAluno'");
+        return alunos.removeIf(aluno -> aluno.getMatricula() == matricula);
     }
     
 
