@@ -13,12 +13,9 @@ Este repositório contém os exercícios, projetos e anotações das aulas de **
 - Interfaces e Abstração  
 - Sobrecarga de métodos e construtores  
 - Associações entre classes  
-
-<<<<<<< HEAD
 ## Tecnologias Utilizadas
 =======
 ##  Tecnologias Utilizadas
->>>>>>> 5d55d4012089d41e60e12cdaab2ad094136c73c0
 
 - Linguagem: `Java`
 - IDE: `VS Code`
